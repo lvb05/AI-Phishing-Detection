@@ -1,0 +1,201 @@
+id,subject,body,label
+1,Urgent: Verify your account,"Dear user, your account has been suspended. Click below to verify.",phishing
+2,Meeting Reminder,Don’t forget our meeting at 3 PM today.,legitimate
+3,Security Alert,Your password will expire soon. Update it here.,phishing
+4,Invoice Attached,Please find attached the invoice for your purchase.,legitimate
+5,Win a free iPhone!,Congratulations! You have won. Click to claim your prize.,phishing
+6,Project Update,The new project report is ready for review.,legitimate
+7,Important Bank Notice,Suspicious activity detected. Verify immediately.,phishing
+8,Lunch Invitation,Join us for team lunch tomorrow.,legitimate
+9,Confirm Payment,Your transaction is pending confirmation.,phishing
+10,HR Policy Update,Please review the new HR leave policy.,legitimate
+11,Alert 11,Your account has an issue 11. Click here to fix.,phishing
+12,Reminder 12,This is a regular email reminder 12.,legitimate
+13,Alert 13,Your account has an issue 13. Click here to fix.,phishing
+14,Reminder 14,This is a regular email reminder 14.,legitimate
+15,Alert 15,Your account has an issue 15. Click here to fix.,phishing
+16,Reminder 16,This is a regular email reminder 16.,legitimate
+17,Alert 17,Your account has an issue 17. Click here to fix.,phishing
+18,Reminder 18,This is a regular email reminder 18.,legitimate
+19,Alert 19,Your account has an issue 19. Click here to fix.,phishing
+20,Reminder 20,This is a regular email reminder 20.,legitimate
+21,Alert 21,Your account has an issue 21. Click here to fix.,phishing
+22,Reminder 22,This is a regular email reminder 22.,legitimate
+23,Alert 23,Your account has an issue 23. Click here to fix.,phishing
+24,Reminder 24,This is a regular email reminder 24.,legitimate
+25,Alert 25,Your account has an issue 25. Click here to fix.,phishing
+26,Reminder 26,This is a regular email reminder 26.,legitimate
+27,Alert 27,Your account has an issue 27. Click here to fix.,phishing
+28,Reminder 28,This is a regular email reminder 28.,legitimate
+29,Alert 29,Your account has an issue 29. Click here to fix.,phishing
+30,Reminder 30,This is a regular email reminder 30.,legitimate
+31,Alert 31,Your account has an issue 31. Click here to fix.,phishing
+32,Reminder 32,This is a regular email reminder 32.,legitimate
+33,Alert 33,Your account has an issue 33. Click here to fix.,phishing
+34,Reminder 34,This is a regular email reminder 34.,legitimate
+35,Alert 35,Your account has an issue 35. Click here to fix.,phishing
+36,Reminder 36,This is a regular email reminder 36.,legitimate
+37,Alert 37,Your account has an issue 37. Click here to fix.,phishing
+38,Reminder 38,This is a regular email reminder 38.,legitimate
+39,Alert 39,Your account has an issue 39. Click here to fix.,phishing
+40,Reminder 40,This is a regular email reminder 40.,legitimate
+41,Alert 41,Your account has an issue 41. Click here to fix.,phishing
+42,Reminder 42,This is a regular email reminder 42.,legitimate
+43,Alert 43,Your account has an issue 43. Click here to fix.,phishing
+44,Reminder 44,This is a regular email reminder 44.,legitimate
+45,Alert 45,Your account has an issue 45. Click here to fix.,phishing
+46,Reminder 46,This is a regular email reminder 46.,legitimate
+47,Alert 47,Your account has an issue 47. Click here to fix.,phishing
+48,Reminder 48,This is a regular email reminder 48.,legitimate
+49,Alert 49,Your account has an issue 49. Click here to fix.,phishing
+50,Reminder 50,This is a regular email reminder 50.,legitimate
+51,Alert 51,Your account has an issue 51. Click here to fix.,phishing
+52,Reminder 52,This is a regular email reminder 52.,legitimate
+53,Alert 53,Your account has an issue 53. Click here to fix.,phishing
+54,Reminder 54,This is a regular email reminder 54.,legitimate
+55,Alert 55,Your account has an issue 55. Click here to fix.,phishing
+56,Reminder 56,This is a regular email reminder 56.,legitimate
+57,Alert 57,Your account has an issue 57. Click here to fix.,phishing
+58,Reminder 58,This is a regular email reminder 58.,legitimate
+59,Alert 59,Your account has an issue 59. Click here to fix.,phishing
+60,Reminder 60,This is a regular email reminder 60.,legitimate
+61,Alert 61,Your account has an issue 61. Click here to fix.,phishing
+62,Reminder 62,This is a regular email reminder 62.,legitimate
+63,Alert 63,Your account has an issue 63. Click here to fix.,phishing
+64,Reminder 64,This is a regular email reminder 64.,legitimate
+65,Alert 65,Your account has an issue 65. Click here to fix.,phishing
+66,Reminder 66,This is a regular email reminder 66.,legitimate
+67,Alert 67,Your account has an issue 67. Click here to fix.,phishing
+68,Reminder 68,This is a regular email reminder 68.,legitimate
+69,Alert 69,Your account has an issue 69. Click here to fix.,phishing
+70,Reminder 70,This is a regular email reminder 70.,legitimate
+71,Alert 71,Your account has an issue 71. Click here to fix.,phishing
+72,Reminder 72,This is a regular email reminder 72.,legitimate
+73,Alert 73,Your account has an issue 73. Click here to fix.,phishing
+74,Reminder 74,This is a regular email reminder 74.,legitimate
+75,Alert 75,Your account has an issue 75. Click here to fix.,phishing
+76,Reminder 76,This is a regular email reminder 76.,legitimate
+77,Alert 77,Your account has an issue 77. Click here to fix.,phishing
+78,Reminder 78,This is a regular email reminder 78.,legitimate
+79,Alert 79,Your account has an issue 79. Click here to fix.,phishing
+80,Reminder 80,This is a regular email reminder 80.,legitimate
+81,Alert 81,Your account has an issue 81. Click here to fix.,phishing
+82,Reminder 82,This is a regular email reminder 82.,legitimate
+83,Alert 83,Your account has an issue 83. Click here to fix.,phishing
+84,Reminder 84,This is a regular email reminder 84.,legitimate
+85,Alert 85,Your account has an issue 85. Click here to fix.,phishing
+86,Reminder 86,This is a regular email reminder 86.,legitimate
+87,Alert 87,Your account has an issue 87. Click here to fix.,phishing
+88,Reminder 88,This is a regular email reminder 88.,legitimate
+89,Alert 89,Your account has an issue 89. Click here to fix.,phishing
+90,Reminder 90,This is a regular email reminder 90.,legitimate
+91,Alert 91,Your account has an issue 91. Click here to fix.,phishing
+92,Reminder 92,This is a regular email reminder 92.,legitimate
+93,Alert 93,Your account has an issue 93. Click here to fix.,phishing
+94,Reminder 94,This is a regular email reminder 94.,legitimate
+95,Alert 95,Your account has an issue 95. Click here to fix.,phishing
+96,Reminder 96,This is a regular email reminder 96.,legitimate
+97,Alert 97,Your account has an issue 97. Click here to fix.,phishing
+98,Reminder 98,This is a regular email reminder 98.,legitimate
+99,Alert 99,Your account has an issue 99. Click here to fix.,phishing
+100,Reminder 100,This is a regular email reminder 100.,legitimate
+101,Alert 101,Your account has an issue 101. Click here to fix.,phishing
+102,Reminder 102,This is a regular email reminder 102.,legitimate
+103,Alert 103,Your account has an issue 103. Click here to fix.,phishing
+104,Reminder 104,This is a regular email reminder 104.,legitimate
+105,Alert 105,Your account has an issue 105. Click here to fix.,phishing
+106,Reminder 106,This is a regular email reminder 106.,legitimate
+107,Alert 107,Your account has an issue 107. Click here to fix.,phishing
+108,Reminder 108,This is a regular email reminder 108.,legitimate
+109,Alert 109,Your account has an issue 109. Click here to fix.,phishing
+110,Reminder 110,This is a regular email reminder 110.,legitimate
+111,Alert 111,Your account has an issue 111. Click here to fix.,phishing
+112,Reminder 112,This is a regular email reminder 112.,legitimate
+113,Alert 113,Your account has an issue 113. Click here to fix.,phishing
+114,Reminder 114,This is a regular email reminder 114.,legitimate
+115,Alert 115,Your account has an issue 115. Click here to fix.,phishing
+116,Reminder 116,This is a regular email reminder 116.,legitimate
+117,Alert 117,Your account has an issue 117. Click here to fix.,phishing
+118,Reminder 118,This is a regular email reminder 118.,legitimate
+119,Alert 119,Your account has an issue 119. Click here to fix.,phishing
+120,Reminder 120,This is a regular email reminder 120.,legitimate
+121,Alert 121,Your account has an issue 121. Click here to fix.,phishing
+122,Reminder 122,This is a regular email reminder 122.,legitimate
+123,Alert 123,Your account has an issue 123. Click here to fix.,phishing
+124,Reminder 124,This is a regular email reminder 124.,legitimate
+125,Alert 125,Your account has an issue 125. Click here to fix.,phishing
+126,Reminder 126,This is a regular email reminder 126.,legitimate
+127,Alert 127,Your account has an issue 127. Click here to fix.,phishing
+128,Reminder 128,This is a regular email reminder 128.,legitimate
+129,Alert 129,Your account has an issue 129. Click here to fix.,phishing
+130,Reminder 130,This is a regular email reminder 130.,legitimate
+131,Alert 131,Your account has an issue 131. Click here to fix.,phishing
+132,Reminder 132,This is a regular email reminder 132.,legitimate
+133,Alert 133,Your account has an issue 133. Click here to fix.,phishing
+134,Reminder 134,This is a regular email reminder 134.,legitimate
+135,Alert 135,Your account has an issue 135. Click here to fix.,phishing
+136,Reminder 136,This is a regular email reminder 136.,legitimate
+137,Alert 137,Your account has an issue 137. Click here to fix.,phishing
+138,Reminder 138,This is a regular email reminder 138.,legitimate
+139,Alert 139,Your account has an issue 139. Click here to fix.,phishing
+140,Reminder 140,This is a regular email reminder 140.,legitimate
+141,Alert 141,Your account has an issue 141. Click here to fix.,phishing
+142,Reminder 142,This is a regular email reminder 142.,legitimate
+143,Alert 143,Your account has an issue 143. Click here to fix.,phishing
+144,Reminder 144,This is a regular email reminder 144.,legitimate
+145,Alert 145,Your account has an issue 145. Click here to fix.,phishing
+146,Reminder 146,This is a regular email reminder 146.,legitimate
+147,Alert 147,Your account has an issue 147. Click here to fix.,phishing
+148,Reminder 148,This is a regular email reminder 148.,legitimate
+149,Alert 149,Your account has an issue 149. Click here to fix.,phishing
+150,Reminder 150,This is a regular email reminder 150.,legitimate
+151,Alert 151,Your account has an issue 151. Click here to fix.,phishing
+152,Reminder 152,This is a regular email reminder 152.,legitimate
+153,Alert 153,Your account has an issue 153. Click here to fix.,phishing
+154,Reminder 154,This is a regular email reminder 154.,legitimate
+155,Alert 155,Your account has an issue 155. Click here to fix.,phishing
+156,Reminder 156,This is a regular email reminder 156.,legitimate
+157,Alert 157,Your account has an issue 157. Click here to fix.,phishing
+158,Reminder 158,This is a regular email reminder 158.,legitimate
+159,Alert 159,Your account has an issue 159. Click here to fix.,phishing
+160,Reminder 160,This is a regular email reminder 160.,legitimate
+161,Alert 161,Your account has an issue 161. Click here to fix.,phishing
+162,Reminder 162,This is a regular email reminder 162.,legitimate
+163,Alert 163,Your account has an issue 163. Click here to fix.,phishing
+164,Reminder 164,This is a regular email reminder 164.,legitimate
+165,Alert 165,Your account has an issue 165. Click here to fix.,phishing
+166,Reminder 166,This is a regular email reminder 166.,legitimate
+167,Alert 167,Your account has an issue 167. Click here to fix.,phishing
+168,Reminder 168,This is a regular email reminder 168.,legitimate
+169,Alert 169,Your account has an issue 169. Click here to fix.,phishing
+170,Reminder 170,This is a regular email reminder 170.,legitimate
+171,Alert 171,Your account has an issue 171. Click here to fix.,phishing
+172,Reminder 172,This is a regular email reminder 172.,legitimate
+173,Alert 173,Your account has an issue 173. Click here to fix.,phishing
+174,Reminder 174,This is a regular email reminder 174.,legitimate
+175,Alert 175,Your account has an issue 175. Click here to fix.,phishing
+176,Reminder 176,This is a regular email reminder 176.,legitimate
+177,Alert 177,Your account has an issue 177. Click here to fix.,phishing
+178,Reminder 178,This is a regular email reminder 178.,legitimate
+179,Alert 179,Your account has an issue 179. Click here to fix.,phishing
+180,Reminder 180,This is a regular email reminder 180.,legitimate
+181,Alert 181,Your account has an issue 181. Click here to fix.,phishing
+182,Reminder 182,This is a regular email reminder 182.,legitimate
+183,Alert 183,Your account has an issue 183. Click here to fix.,phishing
+184,Reminder 184,This is a regular email reminder 184.,legitimate
+185,Alert 185,Your account has an issue 185. Click here to fix.,phishing
+186,Reminder 186,This is a regular email reminder 186.,legitimate
+187,Alert 187,Your account has an issue 187. Click here to fix.,phishing
+188,Reminder 188,This is a regular email reminder 188.,legitimate
+189,Alert 189,Your account has an issue 189. Click here to fix.,phishing
+190,Reminder 190,This is a regular email reminder 190.,legitimate
+191,Alert 191,Your account has an issue 191. Click here to fix.,phishing
+192,Reminder 192,This is a regular email reminder 192.,legitimate
+193,Alert 193,Your account has an issue 193. Click here to fix.,phishing
+194,Reminder 194,This is a regular email reminder 194.,legitimate
+195,Alert 195,Your account has an issue 195. Click here to fix.,phishing
+196,Reminder 196,This is a regular email reminder 196.,legitimate
+197,Alert 197,Your account has an issue 197. Click here to fix.,phishing
+198,Reminder 198,This is a regular email reminder 198.,legitimate
+199,Alert 199,Your account has an issue 199. Click here to fix.,phishing
+200,Reminder 200,This is a regular email reminder 200.,legitimate
