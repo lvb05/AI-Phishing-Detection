@@ -1,17 +1,3 @@
-
-#!/usr/bin/env python3
-\"\"\"model_train.py
-
-Train models for the AI-Phishing-Detection project.
-
-- Email classifier: TF-IDF + Logistic Regression (fast baseline). Optionally export TF-IDF vectorizer.
-- URL classifier: Feature-engineered XGBoost classifier.
-- Saves models to ../models/ (creates folder if missing).
-
-Usage:
-    python src/model_train.py --emails ../data/emails.csv --urls ../data/phishing_urls.csv
-\"\"\"
-
 import argparse
 import os
 import joblib
