@@ -1,14 +1,5 @@
 
 #!/usr/bin/env python3
-\"\"\"encrypt_data.py
-
-Simple AES-256-GCM encryption/decryption utilities for protecting email data.
-Requires: cryptography
-
-Usage examples:
-    python src/encrypt_data.py --encrypt --infile ../data/emails.csv --outfile ../data/emails.enc
-    python src/encrypt_data.py --decrypt --infile ../data/emails.enc --outfile ../data/emails_decrypted.csv
-\"\"\"
 
 import argparse
 import os
