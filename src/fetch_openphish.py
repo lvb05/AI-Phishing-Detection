@@ -1,17 +1,5 @@
 
 #!/usr/bin/env python3
-\"\"\"fetch_openphish.py
-
-Fetch a phishing feed (OpenPhish public feed) and save to CSV.
-If internet is not available or you prefer locally, this script can be pointed to a file.
-
-Usage:
-    python src/fetch_openphish.py --out ../data/openphish.csv
-Notes:
-    - OpenPhish public feed (plain text) URL used: https://openphish.com/feed.txt
-    - If the fetch fails, the script will create an empty CSV or you can provide --source local_file.txt
-\"\"\"
-
 import argparse
 import requests
 import pandas as pd
