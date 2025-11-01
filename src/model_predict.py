@@ -1,14 +1,4 @@
 
-#!/usr/bin/env python3
-\"\"\"model_predict.py
-
-Load saved models and provide prediction helpers for email texts and URLs.
-
-Usage examples:
-    python src/model_predict.py --email \"Your account is suspended\"
-    python src/model_predict.py --url \"http://example-login.com\"
-\"\"\"
-
 import argparse
 import joblib
 import os
