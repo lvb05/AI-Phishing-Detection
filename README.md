@@ -4,7 +4,6 @@
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.129.0-green)](https://fastapi.tiangolo.com)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.36.0-red)](https://streamlit.io)
 [![XGBoost](https://img.shields.io/badge/XGBoost-2.1.3-orange)](https://xgboost.ai)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A **production‑ready, multimodal AI system** that detects phishing emails and URLs with **97% accuracy**.  
 Combines **URL lexical features (XGBoost)** + **email text (TF‑IDF + XGBoost)** → **stacked ensemble** for robust, real‑time inference.
