@@ -13,12 +13,16 @@ Combines **URL lexical features (XGBoost)** + **email text (TF‑IDF + XGBoost)*
 
 ##  **Screenshots & Demo**
 
-| **Model Performance** | **Live API** | **Detection Demo** |
-|----------------------|--------------|-------------------|
-| ![F1 Score](screenshots/01_model_performance.png) | ![API](screenshots/02_api_running.png) | ![Phishing Alert](screenshots/04_phishing_detected2.png) |
+| **Model Performance** | **Live API** | 
+|----------------------|--------------|
+| ![F1 Score](screenshots/01_model_performance.png) | ![API](screenshots/02_api_running.png) |
 
-**Feature Importance**  
-<img src="screenshots/05_feature_importance.png" alt="Top 20 TF-IDF Features" width="400"/>
+**Feature Importance**
+
+| **Top 20 TF-IDF Features**| **Detection Demo** |
+|----------------------|--------------|
+| ![Features](screenshots/05_feature_importance.png) | ![Phishing Alert](screenshots/04_phishing_detected2.png) |
+
 
 ---
 
@@ -42,6 +46,7 @@ Combines **URL lexical features (XGBoost)** + **email text (TF‑IDF + XGBoost)*
 ---
 
 ## **Model Architecture**
+```
 ┌─────────────────┐ ┌─────────────────┐
 │ URL Features │ │ Email Text │
 │ (4 numerical) │ │ (raw string) │
@@ -64,9 +69,89 @@ Combines **URL lexical features (XGBoost)** + **email text (TF‑IDF + XGBoost)*
 │ PHISHING / │
 │ BENIGN │
 └─────────────┘
+```
 
 ---
 
-## ⚙️ **Installation & Setup**
+## **Installation & Setup**
 
 ### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/yourusername/AI-Phishing-Detection.git
+cd AI-Phishing-Detection
+```
+### 2️⃣ Create and activate virtual environment
+```bash
+python -m venv phishing_venv
+# Windows
+phishing_venv\Scripts\activate
+# Linux/macOS
+source phishing_venv/bin/activate
+```
+### 3️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Quick Start
+
+- Start the API server
+```bash
+python -m uvicorn api.main:app --reload --host 0.0.0.0 --port 8000
+```
+- Start the Streamlit dashboard (new terminal)
+```bash
+python -m streamlit run dashboard/app.py
+```
+Open http://localhost:8501 in your browser.
+
+---
+
+## Test with Sample Phishing Email
+Email text:
+```
+Subject: Urgent: Your account will be suspended
+
+Dear valued customer,
+
+We detected unusual activity on your PayPal account. 
+To prevent suspension, please verify your information immediately:
+
+http://paypal-security-verify.com.login.temporary-server.net/update
+
+Failure to do so within 24 hours will result in permanent account limitation.
+
+Sincerely,
+PayPal Security Team
+```
+- URL features: 1, 85, 3, 0
+- Prediction: PHISHING (≈97% confidence)
+
+---
+
+## Performance
+<img width="727" height="278" alt="image" src="https://github.com/user-attachments/assets/30d68dec-35f7-4716-8f81-1d4e245f21ef" />
+
+
+🗂️ Project Structure
+```text
+AI-Phishing-Detection/
+│
+├── api/                # FastAPI backend
+│   └── main.py
+├── dashboard/          # Streamlit frontend
+│   └── app.py
+├── models/             # Trained models
+│   ├── xgboost_model.json
+│   ├── tfidf_vectorizer.pkl
+│   ├── xgboost_text_model.json
+│   └── meta_learner.pkl
+├── notebooks/          # Jupyter training notebooks
+│   ├── 01_data_preparation.ipynb
+│   └── 02_model_training.ipynb
+├── screenshots/        # Demo images for README
+├── requirements.txt
+└── README.md
+```
