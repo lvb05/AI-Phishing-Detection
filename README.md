@@ -76,7 +76,7 @@ Combines **URL lexical features (XGBoost)** + **email text (TF‑IDF + XGBoost)*
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/AI-Phishing-Detection.git
+git clone https://github.com/lvb05/AI-Phishing-Detection.git
 cd AI-Phishing-Detection
 ```
 ### 2️⃣ Create and activate virtual environment
@@ -133,6 +133,11 @@ PayPal Security Team
 ## Performance
 <img width="727" height="278" alt="image" src="https://github.com/user-attachments/assets/30d68dec-35f7-4716-8f81-1d4e245f21ef" />
 
+---
+**Live Dashboard**  
+![Dashboard](screenshots/dashboard.png)
+
+---
 
 🗂️ Project Structure
 ```text
