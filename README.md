@@ -150,7 +150,7 @@ AI-Phishing-Detection/
 ├── notebooks/          # Jupyter training notebooks
 │   ├── 01_data_preparation.ipynb
 │   └── 02_model_training.ipynb
-├── screenshots/        # Demo images for README
+├── screenshots/        
 ├── requirements.txt
 └── README.md
 ```
