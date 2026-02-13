@@ -59,14 +59,14 @@ Combines **URL lexical features (XGBoost)** + **email text (TF‑IDF + XGBoost)*
 │ │
 └───────────┬───────────┘
 ▼
-┌─────────────────────┐
+┌───────────────────┐
 │ Meta‑Learner (LR) │
 │ probability stack │
 └────────┬──────────┘
 ▼
 ┌─────────────┐
-│ PHISHING / │
-│ BENIGN │
+│ PHISHING /  │
+│ BENIGN      │
 └─────────────┘
 ```
 
