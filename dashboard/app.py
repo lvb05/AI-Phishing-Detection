@@ -27,7 +27,7 @@ if st.button("Analyze"):
     try:
         features = [url_count, url_length_max, url_subdom_max, attachment_count]
         payload = {"url_features": features, "email_text": email_text}
-        resp = requests.post(f"{api_url}/predict", json=payload, timeout=10)
+        resp = requests.post(f"{api_url}/predict", json=payload, timeout=60)
         result = resp.json()
         prob = result["phishing_probability"]
         label = result["label"]
