@@ -9,6 +9,15 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 MODELS_DIR = BASE_DIR / "models"
 
 app = FastAPI(title="Phishing Detection API")
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 model_url = xgb.XGBClassifier()
 model_url.load_model(str(MODELS_DIR / "xgboost_model.json"))
