@@ -47,27 +47,27 @@ Combines **URL lexical features (XGBoost)** + **email text (TF‑IDF + XGBoost)*
 ## **Model Architecture**
 ```
 ┌─────────────────┐ ┌─────────────────┐
-│ URL Features │ │ Email Text │
-│ (4 numerical) │ │ (raw string) │
+│ URL Features    │ │  Email Text     │
+│ (4 numerical)   │ │ (raw string)    │
 └────────┬────────┘ └────────┬────────┘
-│ │
-▼ ▼
+         │                   │
+         ▼                   ▼
 ┌─────────────────┐ ┌─────────────────┐
-│ XGBoost (URL) │ │ TF‑IDF + XGB │
-│ (trained) │ │ (trained) │
+│ XGBoost (URL)   │ │ TF‑IDF + XGB    │
+│ (trained)       │ │ (trained)       │
 └────────┬────────┘ └────────┬────────┘
-│ │
-└───────────┬───────────┘
-▼
-┌───────────────────┐
-│ Meta‑Learner (LR) │
-│ probability stack │
-└────────┬──────────┘
-▼
-┌─────────────┐
-│ PHISHING /  │
-│ BENIGN      │
-└─────────────┘
+         │                   │
+         └─────────┬─────────┘
+                   ▼
+         ┌───────────────────┐
+         │ Meta‑Learner (LR) │
+         │ probability stack │
+         └────────┬──────────┘
+                  ▼
+           ┌─────────────┐
+           │ PHISHING /  │
+           │ BENIGN      │
+           └─────────────┘
 ```
 
 ---
