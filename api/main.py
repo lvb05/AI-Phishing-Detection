@@ -3,19 +3,22 @@ from pydantic import BaseModel
 import numpy as np
 import joblib
 import xgboost as xgb
-from sklearn.feature_extraction.text import TfidfVectorizer
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent   
+MODELS_DIR = BASE_DIR / "models"
 
 app = FastAPI(title="Phishing Detection API")
 
-# Load models
 model_url = xgb.XGBClassifier()
-model_url.load_model(r"C:\Users\Lavanya\Desktop\AI-Phishing-\models\xgboost_model.json")
+model_url.load_model(str(MODELS_DIR / "xgboost_model.json"))
 
-vectorizer = joblib.load(r"C:\Users\Lavanya\Desktop\AI-Phishing-\models\tfidf_vectorizer.pkl")
+vectorizer = joblib.load(str(MODELS_DIR / "tfidf_vectorizer.pkl"))
+
 model_text = xgb.XGBClassifier()
-model_text.load_model(r"C:\Users\Lavanya\Desktop\AI-Phishing-\models\xgboost_text_model.json")
+model_text.load_model(str(MODELS_DIR / "xgboost_text_model.json"))
 
-meta_model = joblib.load(r"C:\Users\Lavanya\Desktop\AI-Phishing-\models\meta_learner.pkl")
+meta_model = joblib.load(str(MODELS_DIR / "meta_learner.pkl"))
 
 class PredictionRequest(BaseModel):
     url_features: list
