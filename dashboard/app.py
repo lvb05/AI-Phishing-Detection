@@ -5,7 +5,11 @@ import plotly.graph_objects as go
 st.set_page_config(layout="wide", page_title="Phishing Dashboard")
 st.title("🛡️ Multimodal Phishing Detection System")
 
-api_url = st.sidebar.text_input("API URL", "http://localhost:8000")
+import os
+api_url = st.sidebar.text_input(
+    "API URL", 
+    value=os.getenv("API_URL", "http://localhost:8000")
+)
 
 st.subheader("🔍 Check URL / Email")
 col1, col2 = st.columns(2)
